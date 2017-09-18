@@ -28,11 +28,14 @@
             android:layout_marginRight="10dp"
             android:background="?actionBarItemBackground"
             android:padding="6dp"
-            android:src=""/>
-
+            android:src="@mipmap/ic_mine"/>
 
     </RelativeLayout>
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>
