@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * 360°全景
+ * 参考链接: https://github.com/sfsheng0322/DroidVR
+ */
 public class MainActivity extends AppCompatActivity {
 
     private ImageView ivMine;
